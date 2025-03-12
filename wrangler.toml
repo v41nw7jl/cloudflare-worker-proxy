@@ -6,6 +6,8 @@ workers_dev = true
 route = "fundaclass.eu.org/*"
 zone_id = "YOUR_CLOUDFLARE_ZONE_ID"
 
+main = "index.js"  # 🔹 Add this line to specify the entry script
+
 [build]
 command = ""
 
