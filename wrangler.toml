@@ -1,0 +1,13 @@
+name = "fundaclass-worker"
+type = "javascript"
+
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+route = "fundaclass.eu.org/*"
+zone_id = "YOUR_CLOUDFLARE_ZONE_ID"
+
+[build]
+command = ""
+
+[miniflare]
+kv_persist = true
