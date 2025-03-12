@@ -8,6 +8,8 @@ zone_id = "YOUR_CLOUDFLARE_ZONE_ID"
 
 main = "index.js"  # 🔹 Add this line to specify the entry script
 
+compatibility_date = "2025-03-12"
+
 [build]
 command = ""
 
